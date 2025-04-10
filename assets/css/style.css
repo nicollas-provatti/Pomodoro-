@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(186, 71, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 500px;
+    padding: 20px 20px;
+}
+
+#secaoBotoes {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+#secaoBotoes > div > button {
+    border: none;
+    padding: 5px 10px;
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnSelecionado {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+#secaoTemporizador {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    
+}
+
+#temporizador {
+    font-size: 8rem;
+    color: white;
+}
+
+#secaoComecarPausa {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#secaoComecarPausa > button {
+    border: none;
+    font-size: 2rem;
+    padding: 15px 25px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+
+#btnPausar {
+    display: none;
+}
